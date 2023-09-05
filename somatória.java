@@ -1,13 +1,12 @@
-package bicha3;
 import java.util.Scanner;
-	public class somatória {
+	public class somatÃ³ria {
 		public static void main(String[] args) {
 			Scanner in = new Scanner (System.in);
 			int i=2 ,  r ,f;
 			f=1; 
 			while (i<101) {
 				f= f+i; 
-				System.out.println("somatória realizada é " +f);
+				System.out.println("somatÃ³ria realizada Ã© " +f);
 				i++;
 		}
 	}
