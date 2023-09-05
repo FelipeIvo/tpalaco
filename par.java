@@ -1,4 +1,3 @@
-package banana;
 import java.util.Scanner; 
 public class par {
     public static void main(String[] args) {
