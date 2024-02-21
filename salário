@@ -1,0 +1,16 @@
+package pedrojoaquim;
+import java.util.Scanner;
+public class salário {
+	public static void main (String[] args) {
+		Scanner in = new Scanner (System.in);
+		double ad, h, sl;
+		
+		System.out.println ("insira a quantidade de horas ");
+		h = in.nextDouble ();
+		
+		System.out.println ("insira a quantidade de horas ");
+		ad = in.nextDouble ();
+		
+		
+}
+}
