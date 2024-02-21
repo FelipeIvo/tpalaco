@@ -1,0 +1,17 @@
+import java.util.Scanner; 
+public class retangulo {
+	public static void main (String[] args) {
+			Scanner in = new Scanner (System.in);
+			int b, a, h, p; 
+			
+			System.out.println ("Insira a base de seu retângulo  ");
+			b = in.nextInt ();
+			System.out.println ("Insira a altura de seu retângulo  ");
+			h = in.nextInt ();
+			
+			a = b*h;
+			p = b+b+h+h;
+			
+			System.out.println ("a área do seu rentângulo é "+a+" e o seu perimetro é " +p);
+	}
+}
