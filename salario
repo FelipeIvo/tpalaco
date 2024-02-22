@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+public class salario {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		double ad, h, sl=0, s;
+
+		System.out.println("insira a quantidade do valor da sua hora ");
+		h = in.nextDouble();
+
+		System.out.println("insira a quantidade de aulas dadas ");
+		ad = in.nextDouble();
+
+		s = ad*h;
+		 if (s <= 1212) {
+			 sl = s;
+			 s=(s*7.5)/100;
+			 sl = sl-s;
+			
+		 } else if (s < 2427.36) { 
+			 sl = s;
+			 s =(s*9.0)/100;
+			 sl = sl-s;
+		 } else if  (s < 3641.04) {
+			 sl = s;
+			 s =(s*12.0)/100;
+			 sl = s-s;
+		 } else if (s <7087.23) {
+			 sl = s;
+			 s =(s*14.0)/100;
+			 sl = sl-s;
+		 } else if (s <12136.80) {
+			 sl = s;
+			 s =(s*14.5)/100;
+			 sl = sl-s;
+		
+}		else if (s <24273.57) {
+			sl = s;
+			s =(s*16.5)/100;
+			sl = sl-s;
+
+			}else if (s <47333.47) {
+				sl = s;
+				s =(s*19.0)/100;
+				sl = sl-s;
+		}else if (s >47333.46) {
+			sl = s;
+			s =(s*22.0)/100;
+			sl = sl-s;
+	} 
+		 System.out.println("O salário liquido será "+ sl);
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
