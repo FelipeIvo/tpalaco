@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class lucro {
+	public static void main(String[] args) {
+		Scanner in = new Scanner (System.in);
+		double f,m,v;
+		String r;
+		do {
+			System.out.println("qual o valor do produto?");
+			f = in.nextDouble();
+			System.out.println("Qual a margem de lucro? em porcentagem.");
+			m = in.nextDouble();
+			
+			v = (f*m)/100;
+			f = f+v;
+			System.out.println("Se o valor de venda for "+f+". Deseja continuar? (S/N)");
+			r = in.next();
+			
+		} while (r.equalsIgnoreCase("S"));
+	}
+}
